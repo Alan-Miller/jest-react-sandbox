@@ -15,11 +15,23 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
   "main": "./server/index.js",
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan-Miller/jest-react-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alan-Miller/jest-react-sandbox/issues"
+  },
+  "homepage": "https://github.com/Alan-Miller/jest-react-sandbox#readme"
 }

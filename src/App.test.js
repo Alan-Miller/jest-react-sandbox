@@ -28,5 +28,5 @@ _.times(20, () => {
 });
 
 test('fns.clash works', () => {
-  expect(fns.clash(100, 100, 40, 45)).toEqual('Elf');
+  expect(fns.clash(100, 100, 34, 49)).toEqual('Elf');
 });
